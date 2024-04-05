@@ -1,12 +1,13 @@
 #ifndef MusicBox_h
 #define MusicBox_h
 #include <string.h>
+#include <iostream>
 using namespace std;
 class MusicBox
 {
 private:
-std::string songName= "";
-int Width =0;
+std::string songName;
+int Width;
 public:
 MusicBox(); // a default constructor 
 
