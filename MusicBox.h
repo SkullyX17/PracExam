@@ -5,8 +5,8 @@ using namespace std;
 class MusicBox
 {
 private:
-std::string songName;
-int Width;
+std::string songName= "";
+int Width =0;
 public:
 MusicBox(); // a default constructor 
 
