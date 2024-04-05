@@ -14,6 +14,5 @@ Musician(std::string instrument, int experience);
 std::string get_instrument();
 
 int get_experience();
-
 };
 #endif
