@@ -1,6 +1,7 @@
 #ifndef MusicBox_h
 #define MusicBox_h
 #include <string.h>
+using namespace std;
 class MusicBox
 {
 private:
