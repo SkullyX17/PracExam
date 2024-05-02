@@ -30,8 +30,6 @@ void Tesla::drive(int kms)
 {
     int _kms;
     int count=kms/5;
-    int temp;
-    temp=kms/5;
     for (int i = 0; i < count; i++)
     {
         _batteryPercentage--;
