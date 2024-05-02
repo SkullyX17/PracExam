@@ -6,11 +6,12 @@ class Car
 {
     private:
         int _price;
+    protected:
         int _emissions;
     public:
         Car();
         Car(int price);
-        void drive(int kms);
+        virtual void drive(int kms);
         int get_price();
         int get_emissions();
         void set_price(int price);
