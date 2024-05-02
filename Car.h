@@ -15,6 +15,7 @@ class Car
         int get_price();
         int get_emissions();
         void set_price(int price);
+        void set_emissions( int number);
 
 
 };

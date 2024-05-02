@@ -30,3 +30,8 @@ int Car::get_emissions()
     {
         _price=price;
     }
+
+    void Car::set_emissions( int number)
+    {
+        _emissions=number;
+    }
