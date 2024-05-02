@@ -15,10 +15,14 @@ float Ford::get_litresOfFuel()
 void Ford::refuel(int litres)
 {
 _litresOfFuel=_litresOfFuel+litres;
+if(_litresOfFuel>60)
+{
+    _litresOfFuel=60;
+}
 }    
 void Ford::drive(int kms)
 {
-    int _kms;
+    int _kms=0;
     int count=kms/5;
     for (int i = 0; i < count; i++)
     {
@@ -27,8 +31,9 @@ void Ford::drive(int kms)
         {
             break;
         }
-        _emissions=_emissions+(234*5);
+        _kms=_kms+(234*5);
     }
+
 }
 
 void Ford::set_badgeNumber(int number)
