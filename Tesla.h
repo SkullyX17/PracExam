@@ -11,7 +11,7 @@ private:
 public:
     Tesla():Car()
     {
-        _model= 'void';
+        _model= '0';
         _batteryPercentage = 100;
     }
     Tesla(char model,int price):Car(price)
@@ -28,14 +28,5 @@ public:
 
     
 };
-
-Tesla::Tesla(/* args */)
-{
-}
-
-Tesla::~Tesla()
-{
-};
-
 
 #endif
