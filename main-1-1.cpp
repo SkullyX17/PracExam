@@ -7,10 +7,10 @@ int main()
     Car c1;
     Car c2(200);
     cout<<"Price:"<< c1.get_price()
-        <<" Emissions"
+        <<" Emissions:"
         << c1.get_emissions()<<endl;
         cout<<"Price:"<< c2.get_price()
-        <<" Emissions"
+        <<" Emissions:"
         << c2.get_emissions()<<endl;
     
     c1.set_price(400);
