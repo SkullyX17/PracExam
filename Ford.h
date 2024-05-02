@@ -11,6 +11,7 @@ float _litresOfFuel; //60L start
 public:
 Ford():Car()
 {
+    _badgeNumber=0000;
     _litresOfFuel=60;
 }
 Ford(int badgeNumber, int price):Car(price)
