@@ -20,7 +20,7 @@ Ford f2('1',200);
     f1.set_price(100);
     f1.set_badgeNumber('T');
     f1.drive(10);
-    f2.drive(13);
+    f2.drive(300);
     cout<<"Price:"<< f1.get_price()
         <<" Emissions:"<< f1.get_emissions()
         <<" badgeNumber:"<<f1.get_badgeNumber()
