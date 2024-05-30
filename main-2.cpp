@@ -14,4 +14,5 @@ int main()
     s1.implement(s1);
     Persona p1(4,4);
     p1.shift(6,6);
+    s1.implement(p1);
 }
