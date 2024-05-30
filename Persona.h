@@ -29,7 +29,7 @@ _category ='P';
 }
     void Persona::shift(int dx, int dy)
     {
-        location= make_tuple(get<0>(location)+dx,get<0>(location)+dy);
+        location= make_tuple(get<0>(location)+dx,get<0>(location)+dy+1);
        // location= make_tuple(dx,abs(dy));
     }
 

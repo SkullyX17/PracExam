@@ -23,7 +23,10 @@ void playCycle(int maxCycles, double snareTriggerDistance);
 
 
 };
+vector<Spot*>& Play::getMatrix()
+{
 
+}
 
 
 #endif
