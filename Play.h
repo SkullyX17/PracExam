@@ -41,7 +41,11 @@ int count= numPersonas+numSnares;
 }
 void Play::playCycle(int maxCycles, double snareTriggerDistance)
 {
-
+for (int i=0;i<maxCycles;i++)
+{
+    if (snareTriggerDistance < 0)
+    {}
+}
 }
 
 
