@@ -27,7 +27,10 @@ vector<Spot*>& Play::getMatrix()
 {
 
 }
-void initPlay(int numPersonas, int numSnares, int matrixWidth, int matrixHeight);
+void Play::initPlay(int numPersonas, int numSnares, int matrixWidth, int matrixHeight)
+{
+    
+}
 
 
 #endif
