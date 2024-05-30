@@ -8,7 +8,7 @@ using namespace std;
 
 class Spot
 {
-private:
+protected:
     tuple<int, int> location;
     char _category;
 public:

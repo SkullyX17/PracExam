@@ -7,7 +7,7 @@
 class Influence
 {
 public:
-  virtual void implement(Spot& spot)=0;
+  virtual bool isOperative()=0;
 };
 
 #endif

@@ -22,6 +22,7 @@ int main()
     loc= Assists::createRandomLoc(10,10);
     x=get<0>(loc);
     y=get<1>(loc);
+    cout<<x<<", "<<y<<endl;
     Spot s2(x,y,'L');
 
 
