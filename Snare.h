@@ -14,7 +14,7 @@ public:
    Snare();
     Snare(int x, int y);
    bool isOperative();
-   void implement();
+   void implement(Spot& spot);
 };
 Snare::Snare()
 {
@@ -32,7 +32,7 @@ operative=true;
    {
     return operative;
    }
-   void Snare::implement()
+   void Snare::implement(Spot& spot)
    {
     _category='S';
     operative=false;

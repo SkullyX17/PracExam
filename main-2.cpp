@@ -11,7 +11,7 @@ int main()
 {
     Snare s1(1,2);
     s1.isOperative();
-    s1.implement();
+    s1.implement(s1);
     Persona p1(4,4);
     p1.shift(6,6);
 }
