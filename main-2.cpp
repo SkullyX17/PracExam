@@ -9,7 +9,7 @@
 
 int main()
 {
-    Snare s1(1,2);
+    Snare s1(1,-1);
     s1.isOperative();
     s1.implement(s1);
     Persona p1(4,4);
