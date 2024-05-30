@@ -12,13 +12,18 @@ protected:
     tuple<int, int> location;
     char _category;
 public:
+Spot();
    Spot(int x, int y, char category);
 std::tuple<int, int> getLoc();
 char getCategory();
 void setLoc(int x, int y);
 void setCategory(char category);
 };
-
+Spot::Spot()
+{
+  location = make_tuple (0,0);
+        _category= 'v';  
+}
 Spot::Spot(int x, int y, char category)
 {
         location = make_tuple (x,y);
