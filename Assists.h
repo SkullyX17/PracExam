@@ -26,7 +26,7 @@ x = rand() %matrixWidth+1;
 y = rand() %matrixHeight+1;
 //get<0>(Ranloc)=x;
 //get<1>(Ranloc)=y;
-//Ranloc= make_tuple(x,y);
+Ranloc= make_tuple(x,y);
 return Ranloc;
 }
 
