@@ -29,6 +29,10 @@ vector<Spot*>& Play::getMatrix()
 }
 void Play::initPlay(int numPersonas, int numSnares, int matrixWidth, int matrixHeight)
 {
+
+}
+void Play::playCycle(int maxCycles, double snareTriggerDistance)
+{
     
 }
 
