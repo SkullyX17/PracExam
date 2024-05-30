@@ -25,15 +25,23 @@ void playCycle(int maxCycles, double snareTriggerDistance);
 };
 vector<Spot*>& Play::getMatrix()
 {
-
+return matrix;
 }
 void Play::initPlay(int numPersonas, int numSnares, int matrixWidth, int matrixHeight)
 {
-
+matrix.push_back(new Persona[numPersonas]);
+matrix.push_back(new Snare[numSnares]);
+tuple<int, int> Ranloc;
+int count= numPersonas+numSnares;
+    for (int i=0; i<count; i++)
+    {
+    Ranloc=Assists::createRandomLoc(matrixWidth,matrixHeight);
+    matrix[0]->setLoc(get<0>(Ranloc),get<1>(Ranloc));
+    }
 }
 void Play::playCycle(int maxCycles, double snareTriggerDistance)
 {
-    
+
 }
 
 
