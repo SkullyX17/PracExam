@@ -1,0 +1,12 @@
+Has a default constructor.
+The Play class should have a private member std::vector<Spot*> matrix and a std::vector<Spot*>& getMatrix() function.
+It should have a function initPlay(int numPersonas, int numSnares, int matrixWidth, int matrixHeight) that initializes the gameplay with a certain number of each object at random locations in the matrix.
+The Play class should provide a function playCycle(int maxCycles, double snareTriggerDistance) that:
+Runs the game for a certain number of cycles.
+In each cycle, shifts all Persona objects in the matrix to the right by calling the shift(1,0) function.
+Checks for any Snare objects near each Persona. If a Snare object is within the snareTriggerDistance, the Snare's implement function is called on the Persona.
+Checks if any Persona has stepped outside of the matrix. If so, the game is won by that Persona. Prints
+"Persona has won the game!"  and ends the game cycle.
+If the maximum number of cycles is reached and no persona won, it prints
+"Maximum number of cycles reached. Game over."
+Finally, write a main-3.cpp file to simulate the gameplay using the Play class and demonstrate how it handles the gameplay mechanics and victory conditions.

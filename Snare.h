@@ -34,6 +34,7 @@ operative=true;
    }
    void Snare::implement(Spot& spot)
    {
+      spot.setCategory('S');
     _category='S';
     operative=false;
    }
